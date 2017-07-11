@@ -1,0 +1,36 @@
+{
+  "name": "sweet-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sweet.js",
+  "scripts": {
+    "test": "gulp",
+    "test:cafe": "testcafe safari tests/*.js",
+    "build": "pkg tests/streetvoice.js --targets macos-win --output",
+    "start:example": "node src/example.js",
+    "start:sv": "node src/sv.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-testcafe": "^0.2.1"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "gulp": "^3.9.1",
+    "gulp-prompt": "^0.2.0",
+    "gulp-testcafe": "^0.9.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.2.1",
+    "nightmare": "^2.10.0",
+    "pkg": "^4.1.1",
+    "prompt": "^1.0.0",
+    "testcafe": "^0.16.2"
+  }
+}
