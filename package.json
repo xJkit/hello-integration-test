@@ -5,10 +5,8 @@
   "main": "sweet.js",
   "scripts": {
     "test": "gulp",
-    "test:cafe": "testcafe safari tests/*.js",
     "build": "pkg tests/streetvoice.js --targets macos-win --output",
-    "start:example": "node src/example.js",
-    "start:sv": "node src/sv.js"
+    "test:example": "node src/example.js"
   },
   "keywords": [],
   "author": "",
