@@ -38,13 +38,11 @@ npm run test # 透過 gulp 執行 testcafe
 npm run test:example # 執行 nightmare 瀏覽器自動化
 ```
 
-
 執行 TestCafe 結果:
 
 ![Imgur](http://i.imgur.com/SDYB2iX.png)
 
 
-## FAQ
+## Reference
 
-* Against SPA (CCR)?
-* Async Multi sites?
+[>>>>>>我的投影片](https://www.slideshare.net/JOEYCHUNG2/ss-77870645)
