@@ -39,6 +39,10 @@ npm run test:example # 執行 nightmare 瀏覽器自動化
 ```
 
 
+執行 TestCafe 結果:
+
+![Imgur](http://i.imgur.com/SDYB2iX.png)
+
 
 ## FAQ
 
