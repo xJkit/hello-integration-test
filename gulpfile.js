@@ -12,7 +12,7 @@ gulp.task('play', () => {
       process.env.NUMBERS = res.numbers;
     }))
     .pipe(testcafe({
-      browsers: ['safari'],
+      browsers: ['safari', 'chrome', 'firefox', 'opera'],
     }));
 });
 
